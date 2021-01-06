@@ -7,23 +7,23 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> 
   
   <title>Frontend Mentor | [Social Media Dashboard]</title>
 
   
 </head>
 <body>
-  <div class="wrapper">
-    <header class="header">
+  <header class="header">
+    <div class="wrapper">
       <h1>Social Media Dashboard</h1>
-      <p>Total Followers: 23,004</p>
-    </header>
-  </div>
-  <section class="">
+      <p class="header-total">Total Followers: 23,004</p>
+    </div>
+  </header>
+  <section class="top-cards">
     <div class="wrapper">
       <div class="grid">
-        <article class="card">
+        <article class="card facebook">
           <p class="card-title">
             <img src="images/036-facebook.svg" alt="facebook icon">
             @wrstudioweb
@@ -37,7 +37,7 @@
             12 Today
           </p>
         </article>
-        <article class="card">
+        <article class="card twitter">
           <p class="card-title">
             <img src="images/008-twitter.svg" alt="facebook icon">
             @wildsrincon
@@ -51,7 +51,7 @@
             12 Today
           </p>
         </article>
-        <article class="card">
+        <article class="card instagram">
           <p class="card-title">
             <img src="images/029-instagram.svg" alt="facebook icon">
             @wildsrincon
@@ -65,7 +65,7 @@
             12 Today
           </p>
         </article>
-        <article class="card">
+        <article class="card linkedin">
           <p class="card-title">
             <img src="images/027-linkedin.svg" alt="linkedin icon">
             @wildsrincon
@@ -80,11 +80,23 @@
           </p>
         </article>
       </div>
+    </div>    
+  </section>  
+  <section class="overview">
+    <div class="wrapper">
+      <div class="card-small">
+        <p class="card-small-views">Page Views</p>
+        <p class="card-small-icon">
+          <img src="images/036-facebook.svg" alt="faceboook icon">
+        </p>
+        <p class="card-small-number">87</p>
+        <p class="card-small-percentage">
+          <img src="images/icon-up.svg" alt="up icon">
+          2%
+        </p>
+      </div>
     </div>
   </section>
-  <section>
-
-  </section>  
 
   <div class="wrapper attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
