@@ -310,6 +310,18 @@ h2 {
         display: grid;
         grid-template-columns: 1fr 200px;
     }
+
+    .attribution {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        text-decoration: none;
+    }
+
+    .attribution a {
+        text-decoration: none;
+        color: var(--facebook);
+    }
     
 }
 

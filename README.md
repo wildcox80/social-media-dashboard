@@ -1,4 +1,4 @@
-# Frontend Mentor - Social media dashboard with theme switcher
+# Challenge - Social media dashboard with theme switcher
 
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
 
@@ -6,7 +6,9 @@
 
 My first Challenge Frontend Mentor Social Media Dashboard
 
-[Challenge Complete Repo](https://www.frontendmentor.io)
+[Challenge Complete Repo](https://github.com/wildcox80/social-media-dashboard) Please give me a star 🌟
+
+[Challenge Demo](https://social-media-dashboard-wr.vercel.app/)
 
 
 Thanks for checking out this front-end coding challenge.
