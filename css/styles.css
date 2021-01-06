@@ -39,6 +39,7 @@ h1 {
 
 .top-cards {
     margin-top: -50px;
+    margin-bottom: 3em;
 }
 
 .wrapper {
@@ -131,24 +132,38 @@ h1 {
 }
 
 .overview {
-    border: 1px solid red;
-    margin-bottom: 500px;
+    margin-top: 30px;
+}
+
+h2 {
+    color: var(--gray);
 }
 
 .card-small {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+    background: #f0f3fa;
+    border-radius: 8px;
+    padding: 1.7em;
+}
+
+.card-small p {
+    margin: 0;
 }
 
 .card-small-views {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     align-items: center;
+    font-size: .9em;
+    font-weight: bold;
+    color: var(--gray);
 }
 
 .card-small-icon {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     justify-content: end;
     align-items: center;
@@ -160,13 +175,30 @@ h1 {
 }
 
 .card-small-number {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     font-weight: bold;
     font-size: 2.5em;
+    line-height: .9;
 }
 
 .card-small-percentage {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-right: 20px;
+    color: var(--lime-green);
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.card-small-percentage.is-danger {
+    color: var(--bright-red);
+}
+
+.card-small-percentage img {
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .attribution {
